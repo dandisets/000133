@@ -2,6 +2,9 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000133
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
+access:
+- schemaKey: AccessRequirements
+  status: dandi:OpenAccess
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
@@ -22,6 +25,7 @@ identifier: DANDI:000133
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000133/versions/draft/assets/
 name: nest dataset
+repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 url: https://dandiarchive.org/dandiset/000133/draft
